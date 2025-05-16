@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rinjani Senja - Open Trip Lombok</title>
+  <link rel="icon" href="https://drive.google.com/uc?export=view&id=1SFWbPwCoulXgQZ57GMQg2_tCn0CtIeNJ" type="image/png">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; }
+    header { background-color: #2c3e50; color: white; padding: 20px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 20px; }
+    header img { height: 60px; border-radius: 10px; }
+    nav { background-color: #34495e; display: flex; flex-wrap: wrap; justify-content: center; padding: 10px 0; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    footer { background-color: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+    footer img { height: 30px; vertical-align: middle; margin-left: 10px; border-radius: 5px; }
+    .gallery img { width: 100%; max-width: 300px; margin: 10px; border-radius: 10px; }
+    .gallery { display: flex; flex-wrap: wrap; justify-content: center; }
+    .contact, .booking-form, .blog-posts, .about, .testimonials, .faq, .map { margin-top: 40px; }
+    input, textarea, select { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
+    button { background-color: #2980b9; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background-color: #3498db; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://drive.google.com/uc?export=view&id=1SFWbPwCoulXgQZ57GMQg2_tCn0CtIeNJ" alt="Logo Rinjani Senja">
+    <div>
+      <h1>RINJANI SENJA</h1>
+      <p>Open Trip & Wisata Eksklusif di Pulau Lombok</p>
+    </div>
+  </header>
+  <nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#blog">Blog</a>
+    <a href="#pesan">Pemesanan</a>
+    <a href="#faq">FAQ</a>
+    <a href="#testimoni">Testimoni</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section id="tentang" class="about">
+    <h2>Tentang Kami</h2>
+    <p>Rinjani Senja adalah usaha wisata lokal yang berfokus pada layanan open trip dan tur eksklusif ke berbagai destinasi indah di Lombok. Kami berkomitmen memberikan pengalaman perjalanan yang aman, nyaman, dan berkesan. Dipandu oleh tim profesional lokal yang berpengalaman, kami siap mengantar Anda menjelajahi keindahan Gunung Rinjani, Gili Trawangan, Sekotong, dan tempat-tempat menakjubkan lainnya.</p>
+  </section>
+
+  <section id="galeri" class="gallery">
+    <h2>Galeri</h2>
+    <img src="https://via.placeholder.com/300x200?text=Gunung+Rinjani" alt="Gunung Rinjani">
+    <img src="https://via.placeholder.com/300x200?text=Gili+Trawangan" alt="Gili Trawangan">
+    <img src="https://via.placeholder.com/300x200?text=Pantai+Sekotong" alt="Pantai Sekotong">
+    <img src="https://drive.google.com/uc?export=view&id=106mOWfh64ShRLe6ltcv0Vr5PBAFoXNar" alt="Foto Rinjani Senja 1">
+    <img src="https://drive.google.com/uc?export=view&id=14hS6eEBfbF2f5Y2mXkdqnzO5Ojj-lmXy" alt="Foto Rinjani Senja 2">
+  </section>
+
+  <section id="blog" class="blog-posts">
+    <h2>Blog Destinasi</h2>
+    <article>
+      <h3>Menaklukkan Gunung Rinjani</h3>
+      <p>Gunung Rinjani adalah salah satu gunung tertinggi di Indonesia yang menawarkan pengalaman mendaki yang tak terlupakan...</p>
+    </article>
+    <article>
+      <h3>Keindahan Gili Trawangan dan Gili Meno</h3>
+      <p>Nikmati snorkeling dan sunset terbaik di Gili Trawangan dan Gili Meno, surga tropis di utara Lombok...</p>
+    </article>
+  </section>
+
+  <section id="pesan" class="booking-form">
+    <h2>Form Pemesanan</h2>
+    <form>
+      <input type="text" placeholder="Nama Lengkap" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Destinasi Pilihan" required>
+      <input type="date" placeholder="Tanggal Keberangkatan" required>
+      <input type="number" placeholder="Jumlah Peserta" required>
+      <textarea placeholder="Pesan tambahan..."></textarea>
+      <button type="submit">Kirim Pesanan</button>
+    </form>
+  </section>
+
+  <section id="faq" class="faq">
+    <h2>FAQ - Pertanyaan Umum</h2>
+    <p><strong>Q: Apakah saya bisa ikut sendiri tanpa rombongan?</strong><br>A: Bisa, kami menyediakan open trip untuk peserta individu.</p>
+    <p><strong>Q: Apa saja yang termasuk dalam biaya paket?</strong><br>A: Transportasi, akomodasi, guide, tiket masuk objek wisata, dan makan tertentu.</p>
+    <p><strong>Q: Bagaimana cara pembayaran?</strong><br>A: Anda bisa membayar melalui transfer bank setelah konfirmasi ketersediaan tempat.</p>
+  </section>
+
+  <section id="testimoni" class="testimonials">
+    <h2>Testimoni Pelanggan</h2>
+    <blockquote>
+      "Layanan Rinjani Senja sangat ramah dan profesional! Trip ke Rinjani sangat berkesan." – Ahmad, Surabaya
+    </blockquote>
+    <blockquote>
+      "Saya sangat menikmati keindahan Gili bersama guide dari Rinjani Senja. Highly recommended!" – Putri, Jakarta
+    </blockquote>
+  </section>
+
+  <section class="map">
+    <h2>Lokasi Kami</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.3049730438715!2d116.10512847412045!3d-8.687625991381555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdb91c6a3efb17%3A0xd6092abef6c0fc59!2sGunung%20Rinjani!5e0!3m2!1sid!2sid!4v1714634173522!5m2!1sid!2sid" width="100%" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <section id="kontak" class="contact">
+    <h2>Kontak Kami</h2>
+    <p>📞 WhatsApp: <a href="https://wa.me/6287846133523">087846133523</a></p>
+    <p>📧 Email: <a href="mailto:sunshinerinjani47@gmail.com">sunshinerinjani47@gmail.com</a></p>
+    <p>📘 Facebook: <a href="https://facebook.com/RINJANISENJA" target="_blank">RINJANI SENJA</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rinjani Senja. All rights reserved.
+    <img src="https://drive.google.com/uc?export=view&id=1SFWbPwCoulXgQZ57GMQg2_tCn0CtIeNJ" alt="Logo Footer"></p>
+  </footer>
+</body>
+</html>
